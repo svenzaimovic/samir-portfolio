@@ -1,0 +1,204 @@
+//====================================
+// Template Name: Bootstrap 4 Boilerplate
+// Copyright: Sal, https://www.wowthemes.net, https://bootstrapstarter.com/
+//====================================
+
+// Your theme's variables here
+$white:   #fff !default;
+$gray-200: #e9ecef !default;
+
+// Theme styesheet here
+body {background:$white;}
+.navbar {border-bottom:1px solid $gray-200;}
+
+.card {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 8px 40px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.button-o {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.button-o:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #fff;
+    &.btn-orange-o {
+        color: #f78038;
+    }
+}
+
+.btn-orange-bg {
+    color: #f78038;
+}
+
+.btn-orange-bg:hover {
+    background-color: #FF5A57;
+    border-color: #FF5A57;
+    border: none;
+}
+
+.custom-nav {
+    position: absolute;
+    background: transparent;
+    top: 0px;
+    padding-top: 48px;
+    z-index: 10;
+    a {
+        color: rgba(255, 255, 255, 0.5);
+        &.active {
+            color: #fff;
+        }
+        &.disabled {
+            color: rgba(255, 255, 255, 0.25);
+        }
+    }
+    .navbar-brand {
+        color: #fff;
+    }
+}
+
+.jumbotron {
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    border-radius: 0px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    h1 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+    hr {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .btn:first-child {
+        margin-right: 24px;
+    }
+
+}
+
+.jumbo-image {
+    position: absolute;
+    top: -179px;
+    bottom: 0px;
+    width: auto;
+    height: 80vh;
+}
+
+.section {
+    padding: 40px;
+}
+
+.section-heading {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    background: linear-gradient(-60deg, #BB6FD4 0%, #3961CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tri-section-icon {
+    font-size: 64px;
+    margin: auto;
+    display: table;
+    padding: 24px;
+}
+
+.icon-purple, .text-purple {
+    background: linear-gradient(-60deg, #BB6FD4 0%, #3961CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-orange, .text-orange {
+    background: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tri-section-heading {
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.tri-section-text {
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+    padding: 0px 24px;
+    font-weight: 200;
+}
+
+.carousel-item-1 {
+    background-image: url('https://demo15.atiframe.com/wp-content/uploads/2017/07/6.jpg');
+    height: 512px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item-2 {
+    background-image: url('https://demo15.atiframe.com/wp-content/uploads/2017/07/4.jpg');
+    height: 512px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item-3 {
+    background-image: url('https://demo15.atiframe.com/wp-content/uploads/2017/07/5.jpg');
+    height: 512px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
+.carousel-overlay-orange {
+    background: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.carousel-overlay-purple {
+    background: linear-gradient(-60deg, #BB6FD4 0%, #3961CF 100%);
+}
+
+.carousel-title {
+    font-size: 48px;
+}
+
+.carousel-caption {
+    top: 200px;
+}
